@@ -1,0 +1,39 @@
+body {
+    text-align: center;
+  }
+  
+  h1 {
+    margin-top: 20px;
+  }
+  
+  #grid {
+    display: grid;
+    grid-template-columns: repeat(20, 1fr);
+    grid-template-rows: repeat(20, 1fr);
+    width: 1000px;
+    height: 1000px;
+    margin: 20px auto;
+    border: 1px solid black;
+  }
+  
+  #grid div {
+    border: 1px solid lightgray;
+  }
+  
+  button {
+    margin-top: 10px;
+  }
+  .start-node {
+    background-color:blue;
+  }
+  .end-node {
+    background-color: red;
+  }
+  .visited {
+    background-color: lightblue;
+  }
+  .shortest-path {
+    background-color: yellow;
+  }
+  
+  
